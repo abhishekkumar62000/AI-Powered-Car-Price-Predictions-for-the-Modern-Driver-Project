@@ -21,11 +21,11 @@ except FileNotFoundError:
 st.sidebar.title("Developer: Abhishek Kumar")
 
 # Add my jpg to sidebar
-car_image_path = "my.jpg"  # Ensure this file is in the same directory as your script
+car_image_path = "pic.jpg"  # Ensure this file is in the same directory as your script
 try:
-    st.sidebar.image("my.jpg", use_container_width=True)
+    st.sidebar.image("pic.jpg", use_container_width=True)
 except FileNotFoundError:
-    st.sidebar.warning("my.jpg. Please check the file path.")
+    st.sidebar.warning("pic.jpg. Please check the file path.")
 
 
 
